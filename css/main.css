@@ -1,0 +1,42 @@
+.sloy-image{
+    width: 300px;
+    position: relative;
+}
+.sloy-image img{
+    width: 100%;
+}
+.sloy{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    background-color: rgba(255, 0, 0, 0.48);
+    /*rasmni prozrachniy qilish usuli*/
+    opacity: 0.5;
+    /*background-color: red;*/
+/*  opacity->  rasmni prozrachniy korinishi uchun,background -color rgbdan farqi carddagi hamma elementni prozrachniy qilib qoyadi */
+
+}
+.card{
+    width: 100%;
+    background-color: aqua;
+    width: 250px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+/*    korinmay turadi element*/
+}
+.nimadir{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: brown;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition-duration: 2s;
+}
+.card:hover .nimadir{
+    bottom: 0px;
+}
