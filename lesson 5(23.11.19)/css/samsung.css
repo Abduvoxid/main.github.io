@@ -1,0 +1,57 @@
+.container{
+    width: 400px;
+    height: 600px;
+border: 1px solid black;
+    margin: 50px auto;
+    display: flex;
+    background-color: whitesmoke;
+
+}
+.row{
+padding: 10px;
+
+  width: 100%;
+}
+.yangi{
+
+    padding:5px auto ;
+    width: 100px;
+    height: 40px;
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+.row-1{
+    margin-top: 50px;
+    height: 50px;
+    width: 220px;
+    display: flex;
+}
+.uzc{
+    width: 120px;
+    height: 80px;
+}
+.aksiya{
+    border-radius: 10px;
+margin-top: -30px;
+    width: 133px;
+    height: 40px;
+    background-color: red;
+}
+.text{
+margin-left: 150px;
+    margin-top: -70px;
+background-color: white;
+    border: 1px solid black;
+    width:200px;
+    height: 120px;
+    display: flex;
+}
+.ekonomiya{
+width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: yellow;
+
+}
+
+.r

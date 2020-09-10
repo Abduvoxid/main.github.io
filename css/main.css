@@ -1,42 +1,77 @@
-.sloy-image{
-    width: 300px;
-    position: relative;
+.link:hover{
+    color: green;
 }
-.sloy-image img{
-    width: 100%;
+.link:focus{
+    color: red;
+    font-size: 30px;
 }
-.sloy{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0px;
-    background-color: rgba(255, 0, 0, 0.48);
-    /*rasmni prozrachniy qilish usuli*/
-    opacity: 0.5;
-    /*background-color: red;*/
-/*  opacity->  rasmni prozrachniy korinishi uchun,background -color rgbdan farqi carddagi hamma elementni prozrachniy qilib qoyadi */
+.link:active{
+    /*mishkani olib borsa kattalashtiradi*/
+    color: blue;
+    font-size: 40px;
+}
+.link:visited{
+    color: yellow;
+/*    bir marta kirgandan keyin bilinadi*/
+}
+.text h3{
+    color: bisque;
 
 }
-.card{
-    width: 100%;
+.text h3:nth-child(3){
+/*    3-bolaga yozildi,yani unga still berdik*/
+    font-size: 14px;
+}
+.text p:first-line{
+    background-color: khaki;
+    font-family: "Comic Sans MS";
+}
+.text p::first-letter{
+    font-size: 30px;
+    color: red;
+/*    birinchi elementga tasir qiladi*/
+}
+.text p::before{
+    content: 'This is before   ';
+/*    p ni boshidan so'z  chiqardik */
+}
+.text p::after{
+    content: 'This is after';
+/*    bu oxirida chiqadi*/
+
+}
+.box{
+    cursor: url(""),pointer;
+    /*16ga 16 yoki  32ga 32 rasm qoysa keyin u rasm ni textni ustida korishimiz mumkin*/
+    width: 300px;
     background-color: aqua;
-    width: 250px;
-    padding: 0px;
-    position: relative;
-    overflow: hidden;
-/*    korinmay turadi element*/
-}
-.nimadir{
-    width: 100%;
-    padding: 20px;
+    border-radius: 8px;
+    padding:10px;
     box-sizing: border-box;
-    background-color: brown;
-    position: absolute;
-    bottom: -100px;
-    left: 0;
-    transition-duration: 2s;
+    margin: 200px auto;
+    position: relative;
+/*    position:absolute bilan boglash shart,sababi birga ishlaydi*/
+    text-shadow: 5px 5px 7px red;
+    /*box-shadow: 5px 5px 10px red;*/
+    box-shadow: 0 0 18px 20px red;
+/*    soya uchun*/
+    cursor: pointer;
+/*    kursorni o'zgartiradi*/
+    user-select: none;
+/*    kursor bilan harflarni belgilab bolmaydi*/
 }
-.card:hover .nimadir{
-    bottom: 0px;
+.box::before{
+    content: '';
+    border: 10px solid aqua;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    position:absolute;
+    bottom: -20px;
+    left: 10px;
+}
+.box::selection{
+    background-color: bisque;
+/*    textni belgilashdagi rang*/
+    color: red;
 }

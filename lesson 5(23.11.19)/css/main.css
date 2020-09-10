@@ -1,0 +1,101 @@
+.navbar{
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+/*    ikki tomonga qilish*/
+    align-items: center;
+/*    rasmni sal pastroq tushirdi,yani o'rtaga chapdan joylashtirdi*/
+    padding-left: 15px;
+/*    rasmni chapdan surdik*/
+    position: sticky;
+    top:0;
+    z-index: 1;
+/*    .navbarni cardlarni ustidan o'tishi uchun.songa qiymat ixtiyoriy*/
+}
+.navbar img{
+    width: 70px;
+    height: 50px;
+
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul li a{
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+/*    yozuvdagi tag chiziqni olib tashlaydi*/
+/*    text-decoration: line-through; sozni ortasidan chizadi*/
+    padding: 15px 20px;
+    display: block;
+/*    .navbarda padding tepa pasti ishlashi uchun,display;inline blockda tepa pasti ishlamay qoladi shuning uchun*/
+
+}
+
+.container
+{
+    width: 80%;
+    margin: 50px auto;
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.card{
+
+    width: 30%;
+    background-color: aqua;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+/*    card dan aksiya chiqib ketmasligi uchun*/
+}
+.card img {
+    width: 100%;
+}
+
+.aksiya{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    color: white;
+    position: absolute;
+/*    elemaenti cardni ichidagi istalgan nuqtaga joylashtirish uchun (position)dan foydalanamaiiz*/
+    top:-15px;
+    right: -15px;
+    /*left: 0;*/
+    /*bottom: ;*/
+}
+.to-top{
+    width: 50px;
+    height: 50px;
+    background-color: deeppink;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    color: black;
+    display: block;
+    text-decoration: none;
+/*    textni tagidagi o'chadi*/
+
+    position: fixed;
+    /*absolute-elementga nisbatan*/
+    /*fixed-ekranga nisbatan*/
+    /*sticky-malum bir nuqtaga borganda*/
+    /*relative cardga nisbatan*/
+    right: 10px;
+    bottom: 10px;
+}
+html{
+    scroll-behavior:smooth;
+/*    sahifani yuqoriga sekin o;tishi uchun*/
+}

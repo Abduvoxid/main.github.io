@@ -1,0 +1,125 @@
+body{
+    background-color: whitesmoke;
+}
+.navbar{
+
+    background-color: white;
+    /*border: 1px solid red;*/
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-right: 150px;
+    position: sticky;
+    top: 0;
+    z-index:13;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-right: 80px;
+}
+.navbar ul li a {
+
+    font-size: 12px;
+    display: block;
+    text-decoration: none;
+
+}
+.Code{
+    margin-bottom: 8px;
+    margin-top: 17px;
+    display: flex;
+}
+.navbar-ich{
+    width: 100%;
+    display: flex;
+}
+.box{
+    border: 1px solid black;
+}
+.ro\'yxat{
+    margin-top: 10px;
+    margin-left: 200px;
+    background-color: green;
+    width: 150px;
+    height: 30px;
+    text-decoration: none;
+    display: flex;
+    border-radius: 4px;
+}
+.container{
+    width: 100%;
+    height: 800px;
+
+    background-color: whitesmoke;
+
+}
+.tanlash{
+    margin-left: 250px;
+    margin-top: 100px;
+}
+.row{
+    margin-bottom: 50px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.card{
+
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    margin-left: 20px;
+    display: inline-block;
+
+}
+.obuna{
+    color: limegreen;
+    border-radius: 5px;
+    display: flex;
+    margin: 90px 20px;
+    border: 1px solid limegreen;
+width: 180px;
+    height: 40px;
+}
+.to-top{
+    width: 50px;
+    height: 50px;
+    background-color: limegreen;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    text-decoration: none;
+    /*    textni tagidagi o'chadi*/
+
+    position: fixed;
+    /*absolute-elementga nisbatan*/
+    /*fixed-ekranga nisbatan*/
+    /*sticky-malum bir nuqtaga borganda*/
+    /*relative cardga nisbatan*/
+    right: 10px;
+    bottom: 10px;
+}
+html{
+    scroll-behavior:smooth;
+    /*    sahifani yuqoriga sekin o;tishi uchun*/
+}
+.card:hover {
+    transform: scale(1.04);
+    transition-duration: 2s;
+    box-shadow: 0 0 3px 5px dimgrey;
+
+}
+.obuna:hover{
+    color: white;
+    background-color: limegreen;
+    transition-duration: 2s;
+
+}

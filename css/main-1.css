@@ -1,0 +1,72 @@
+.container{
+    margin: 40px 100px 100px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+padding: 10px auto;
+}
+.row{
+
+
+    display: flex;
+
+}
+.card{
+
+
+    box-shadow: 0 0 5px 6px lightgray;
+
+   box-sizing: border-box;
+    background-color: whitesmoke;
+    width: 250px;
+    height: 500px;
+
+    margin-left: 30px;
+}
+.col{
+    width: 248px;
+    height: 200px;
+    background-color: white;
+}
+.yulduz{
+    margin-left: 20px;
+    margin-top: 30px;
+    flex-direction: row;
+    display: flex;
+    box-sizing: border-box;
+
+}
+.yulduzcha{
+    font-size: 25px;
+    color: darkslategrey;
+
+}
+.progress{
+    margin-top: 7px;
+
+    margin-left: 40px;
+
+}
+.qism{
+    margin-left: -6px;
+
+    display: inline-block;
+}
+.xaridga-qo\'shish{
+
+    margin-top: 10px;
+    display: inline-block;
+width: 210px;
+    height: 40px;
+
+    background-color: limegreen;
+    margin-left: 20px;
+
+    border-radius: 3px;
+}
+.card:hover{
+    box-shadow: 0 0 15px black;
+}
+.xaridga-qo\'shish:active{
+    cursor: crosshair;
+}
